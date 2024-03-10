@@ -1,0 +1,142 @@
+ <div class="all">
+      <div class="rows">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1607836046730-3317bd58a31b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">SHIMLA</h5>
+                  <p class="card-text">Explore shimla with us , the joy of nature and beautiness.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rows">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://images.unsplash.com/photo-1513023840371-dd774fcaee5b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">HIMACHAL</h5>
+                      <p class="card-text">Explore himalaya with us , the joy of nature and beautiness.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          
+        <div class="rows">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://images.unsplash.com/photo-1572109801525-0bb0272e8579?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">JHARKHAND</h5>
+                      <p class="card-text">Explore jharkhand with us , the joy of nature and beautiness.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+    
+    
+          <div class="rows ">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://images.unsplash.com/photo-1572109801525-0bb0272e8579?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">ODISSA</h5>
+                      <p class="card-text">Explore himachal with us , the joy of nature and beautiness.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        
+          </div>
+
+
+    
+          <div class="display">
+
+         <h5> we beleive in making travels safe and comfortable with minimun cost and minimun damage to environment
+            feel free to travel with us !!!!! </h5>
+        
+          </div>
+          <div class="allicons">
+          <div class="icons">
+            <img class="icons" src="IMG-20240309-WA0035.jpg">
+            <img class="icons" src="IMG-20240309-WA0036.jpg">
+            <img class="icons" src="IMG-20240309-WA0037.jpg">
+            <img class="icons" src="IMG-20240309-WA0038.jpg">
+            <img class="icons" src="IMG-20240309-WA0039.jpg">
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <H1 class="help"> Carbon Footprint Calculator</H1>
+
+          <div class="calculator">
+
+            <h1>Travel Planner</h1>
+    
+            <label for="flightDistance">Flight Distance (round trip in miles):</label>
+            <input type="number" id="flightDistance" name="flightDistance"><br>
+            
+            <label for="accommodation">Type of Accommodation:</label>
+            <select id="accommodation" name="accommodation">
+                <option value="hotel">Hotel</option>
+                <option value="hostel">Hostel</option>
+                <option value="bnb">BnB</option>
+            </select><br>
+            
+            <label for="days">Number of Days:</label>
+            <input type="number" id="days" name="days"><br>
+            <button onclick="calculateTravelFootprint()">Calculate Carbon Footprint</button>
+    
+    <h2 id="result"></h2>
+    
+    <script src="travelPlanner.js"></script>
+        
+
+          </div>
+
+       
+        </div>
+      
+</div>
+
+img 1 
+https://img.indiafilings.com/learn/wp-content/uploads/2017/07/12010500/GST-Rate-for-Taxi-and-Bus-Services.jpg
+img 2
+https://cdn.open-pr.com/T/3/T303623725_g.jpg
+img3
+https://gos3.ibcdn.com/img-1599050784.jpg
+img4
+https://techcrunch.com/wp-content/uploads/2014/08/zomato_app1_hi-res-l.jpg
+img5
+https://www.technipages.com/wp-content/uploads/2020/02/Share-real-time-location.jpg
+img6
+https://www.girnarcare.com/wp-content/uploads/2021/07/Benefits-of-call-center-services.jpg

@@ -1,0 +1,704 @@
+* {
+  padding: 0px;
+  margin: 0px;
+
+}
+
+img-d.block.w-100 {
+  width: 200px;
+  height: 100px;
+}
+
+a.navbar-brand {
+  color: aqua;
+}
+
+marquee.text-white {
+  color: rgb(142, 99, 46);
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+span.carousel-control-prev-icon {
+  color: black;
+}
+
+.rows {
+  border: 1px solid rgb(209, 209, 209);
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  cursor: pointer;
+  box-shadow: 0.5px 0.5px 10px rgb(213, 213, 213);
+  transition: all 0.4s ease;
+  border-radius: 1%;
+  align-items: center;
+}
+div.all {
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+}
+
+div.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bapall {
+  height: 100px;
+  width: 100px;
+}
+
+img.img-fluid.rounded-start {
+  height: 300px;
+  width: 400px;
+}
+
+div.display {
+  background-color: brown;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.allicons {
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: brown;
+}
+
+div.calculator {
+  height: 100px;
+  width: 100%;
+}
+
+.calculator {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.calculator h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.calculator label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.calculator input[type="number"],
+.calculator select {
+  width: calc(100% - 22px);
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.calculator button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.calculator #result {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h1.help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.card-img-top{
+  height: 210px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+/* CSS for overlay (making it clickable) */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(2px); /* Applies blur to the background */
+}
+/* CSS for hover effect and zoom */
+/* .card:hover {
+  transform: scale(1.1);
+} */
+
+/* CSS for text on overlay */
+.overlay p {
+  color: white;
+  font-size: 20px;
+  backdrop-filter: none; /* Removes blur from the text */
+}
+
+/* CSS for making overlay visible on hover */
+.card:hover .overlay {
+  opacity: 1;
+}
+.card-body:hover .overlay {
+  opacity: 1;
+}
+
+/* mapping css */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "poppins",sans-serif;
+  background-color: #f5f5f5;
+}
+.container{
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+h1{
+  text-align:center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+
+}
+.map-container{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+
+}
+iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+
+}
+.button{
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-colour 0.3s;
+
+}
+
+footer{
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+  font-size: 14px;
+}
+
+/* CSS calculator */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#calculator {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4caf50;
+}
+
+
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* footer css */
+div.all {
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+}
+
+div.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bapall {
+  height: 100px;
+  width: 100px;
+}
+
+img.img-fluid.rounded-start {
+  height: 300px;
+  width: 400px;
+}
+
+div.display {
+  background-color: brown;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.allicons {
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: brown;
+}
+
+div.calculator {
+  height: 100px;
+  width: 100%;
+}
+
+.calculator {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  
+}
+
+.calculator h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.calculator label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.calculator input[type="number"],
+.calculator select {
+  width: calc(100% - 22px);
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.calculator button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.calculator #result {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h1.help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CSS for overlay (making it clickable) */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(2px); /* Applies blur to the background */
+}
+/* CSS for hover effect and zoom */
+/* .card:hover {
+  transform: scale(1.1);
+} */
+
+/* CSS for text on overlay */
+.overlay p {
+  color: white;
+  font-size: 20px;
+  backdrop-filter: none; /* Removes blur from the text */
+}
+
+/* CSS for making overlay visible on hover */
+.card:hover .overlay {
+  opacity: 1;
+}
+.card-body:hover .overlay {
+  opacity: 1;
+}
+
+/* Animation  */
+.text {
+  font-size: 36px;
+  text-align: center;
+  animation: slideIn 1s ease-in-out infinite alternate; /* Apply animation */
+}
+
+/* Keyframes for the animation */
+@keyframes slideIn {
+  from {
+    transform: translateY(-10px); /* Starting position */
+    opacity: 0; /* Starting opacity */
+  }
+  to {
+    transform: translateY(0); /* Ending position */
+    opacity: 1; /* Ending opacity */
+  }
+}
+
+/* facebook google linkedin and stuff */
+footer.text-center text-lg-start bg-body-tertiary text-muted{
+  background-color: #a42a2a;
+}
+
+h6.text-uppercase fw-bold mb-4{
+  color: #4caf50;
+}
+h3{
+  text-align: center;
+}
+
+/* css for currency converter */
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #007bff, #6cb2ff);
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  /* background-color: #4CAF50; */
+  color: white;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+#result {
+  margin-top: 10px;
+}
+
+div#calculator{
+margin-right: 500px;
+  justify-content: start;
+
+}
+
+h3{
+color: yellow;
+}
+
+/* Add your custom styles here */
+.social-buttons {
+
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.social-button {
+  
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+  transition: background-color 0.3s;
+}
+
+.social-button:hover {
+  background-color: #666;
+}
+
+.social-button i {
+  vertical-align: middle;
+}
+
+.social-button--facebook {
+  background-color: #3b5998;
+}
+
+.social-button--linkedin {
+  background-color: #0077b5;
+}
+
+.social-button--snapchat {
+  background-color: #fffc00;
+}
+
+.social-button--github {
+  background-color: #333;
+}
+
+div.social-buttons{
+  display: flex;
+  justify-content: center;
+  margin-right: 625px;
+}
+
+/* hover effect on our services */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.btn1 {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 20px;
+  background: white;
+  font-size: 28px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 1s;
+}
+
+
+.btn1:after,
+.btn1:before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border: 0px solid #fff;
+  transition: all 1s;
+}
+
+.btn1:after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+}
+
+.btn1:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}
+
+.btn1:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.btn1:hover:before,
+.btn1:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+.btn1 {
+  margin-top: 10px;
+}
+
+h3.s{
+  color :black;
+}
+
+span.btn1{
+  margin-top: 100px;
+}
+div.data-container{
+  margin-top: 30px;
+}
+
+div.allcards{
+  border: white;
+  border-width: 20px;
+  border-right: white;
+}
+
+a.overlay{
+  border: white;
+}
+input.form-control me-2{
+  height: 37px;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Khula;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+input.form-control.me-2{
+  width: 200px;
+  height: 40px;
+}
+h3.s{
+  background-color: whitesmoke;
+padding-top: 15px ;
+}
+  
+div#calculator{
+  background-color: #f4f4f4;
+}
+
+section.d-flex justify-content-center justify-content-lg-between p-4 border-bottom{
+  background-color: white;
+}
+
+button.btn.btn-primary{
+  padding-top: 10px;
+}
+
+button.btn.btn1{
+  margin-top: 55px;
+}
